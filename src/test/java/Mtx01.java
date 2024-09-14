@@ -21,7 +21,6 @@ public class Mtx01 {
 
         driver.navigate().back();
         driver.navigate().forward();
-
     }
 
 }
