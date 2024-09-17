@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+// HTML LOCATORS
+
 public class Mtx05 {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
