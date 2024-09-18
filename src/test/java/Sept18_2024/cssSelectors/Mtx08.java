@@ -1,4 +1,4 @@
-package Sept18_2024;
+package Sept18_2024.cssSelectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
