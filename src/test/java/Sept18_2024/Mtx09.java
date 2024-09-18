@@ -17,7 +17,7 @@ public class Mtx09 {
 //        TAG , CLASS AND ATTRIBUTE
 //        driver.findElement(By.cssSelector("input.Pke_EE[name=\"q\"]")).sendKeys("Gaming Laptop");
         // Both Works ->  But [] is mandatory
-        driver.findElement(By.cssSelector(".Pke_EE[name=\"q\"]")).sendKeys("PS5 PRO");
+        driver.findElement(By.cssSelector(".Pke_EE[name=\"q\"]")).sendKeys("PS5");
     }
 
 }
