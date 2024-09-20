@@ -20,6 +20,7 @@ public class Mtx07 {
         driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce");
 
 //        LOGIN BUTTON
-        driver.findElement(By.cssSelector("#login-button")).click();    // We can also write like this without tag name only using the id with "#"
+        // We can also write like this without tag name only using the id with "#"
+        driver.findElement(By.cssSelector("#login-button")).click();
     }
 }
