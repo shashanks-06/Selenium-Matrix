@@ -14,11 +14,11 @@ public class Mtx10 {
 //        Relative xPath -> By Single Attribute
 //        driver.findElement(By.xpath("//input[@placeholder=\"Search Amazon.in\"]")).sendKeys("Mobile");
 
-////        By Multiple Attributes -> Here "and" means both or more attributes should be valid otherwise it wil not work
+//        By Multiple Attributes -> Here "and" means both or more attributes should be valid otherwise it wil not work
 //        driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\" and @placeholder=\"Search Amazon.in\"]")).sendKeys("Tablet");
 
-        //        By Multiple Attributes -> Here "or" means if one of the attribute is valid then it will work
+//        By Multiple Attributes -> Here "or" means if one of the attribute is valid then it will work
         driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\" or @placeholder=\"Search mazon.in\"]")).sendKeys("Tablet");
-//                                                                                                          Here i made it invalid, but still its working
+//                                                                                             Here i made it invalid, but still its working
     }
 }
