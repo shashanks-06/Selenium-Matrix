@@ -2,7 +2,10 @@ package Part1_Locators.Sel2_Locators.Sept20_2024_linkText_partialLinkText;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
 
 public class Mtx15 {
     public static void main(String[] args) {
@@ -20,8 +23,11 @@ public class Mtx15 {
 
 //        using partialLinkText()
 //        It contains the incomplete Text and selects the first occurrence of that incomplete linkText
-        driver.findElement(By.partialLinkText("Bike Light")).click();
+//        driver.findElement(By.partialLinkText("Bike Light")).click();
 
+        //       We can find the count of certain link appearance by using partialLinkText() and List Framework
+        List<WebElement> textList =  driver.findElements(By.partialLinkText("Sauce Labs"));
+        System.out.println("Elements Count: " + textList.size());
 
 
     }
