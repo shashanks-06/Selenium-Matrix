@@ -1,4 +1,4 @@
-package Sept19_2024;
+package Part1_Locators.Sel2_Locators.Sept19_2024_xPath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,10 +1,8 @@
-package Sept19_2024;
+package Part1_Locators.Sel2_Locators.Sept19_2024_xPath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.sql.SQLOutput;
 
 public class Mtx14 {
     public static void main(String[] args) {
