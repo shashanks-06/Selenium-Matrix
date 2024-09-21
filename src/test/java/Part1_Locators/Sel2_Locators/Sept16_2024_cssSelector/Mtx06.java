@@ -1,4 +1,4 @@
-package Sept16_2024_Locators;
+package Part1_Locators.Sel2_Locators.Sept16_2024_cssSelector;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
