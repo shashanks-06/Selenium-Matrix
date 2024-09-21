@@ -1,4 +1,4 @@
-package Sept13_2024;
+package Part1_Locators.Sel1_abstractMethodsInWebDriver.Sept13_2024;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;

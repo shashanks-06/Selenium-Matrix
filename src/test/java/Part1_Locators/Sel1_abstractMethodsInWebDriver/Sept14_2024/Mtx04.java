@@ -1,4 +1,4 @@
-package Sept14_2024;
+package Part1_Locators.Sel1_abstractMethodsInWebDriver.Sept14_2024;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
