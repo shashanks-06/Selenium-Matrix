@@ -1,4 +1,4 @@
-package Sept20_2024.linkText_partialLinkText;
+package Part1_Locators.Sel2_Locators.Sept20_2024_linkText_partialLinkText;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
