@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.File;
 import java.time.Duration;
 
+//      TakesScreenshot - full website
+
 public class Mtx25_takesScreenshot {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
