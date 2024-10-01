@@ -1,8 +1,7 @@
-package Part2.Sel5.Oct01_2024_frames_or_iFrames;
+package Part2.Sel5.Oct01_2024_frames_or_iframes;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
