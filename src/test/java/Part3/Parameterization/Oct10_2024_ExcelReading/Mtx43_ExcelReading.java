@@ -16,7 +16,7 @@ public class Mtx43_ExcelReading {
         XSSFSheet sheet;
 
 
-        String FILE_PATH = "src/test/java/Part3/Parameterization/TestData/PrgmLang.xlsx";
+        String FILE_PATH = "src/test/java/Part3/Parameterization/TestData/MyReadFile.xlsx";
 
         String rootPath = System.getProperty("user.dir");
         System.out.println(rootPath);
