@@ -1,4 +1,4 @@
-package Part3.Sel6.Oct05_2024;
+package Part2.Sel6.Oct05_2024;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
