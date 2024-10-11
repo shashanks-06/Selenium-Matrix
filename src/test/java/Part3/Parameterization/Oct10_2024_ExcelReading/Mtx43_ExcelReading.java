@@ -1,4 +1,4 @@
-package Part3.ExcelReading.Oct10_2024;
+package Part3.Parameterization.Oct10_2024_ExcelReading;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -16,7 +16,7 @@ public class Mtx43_ExcelReading {
         XSSFSheet sheet;
 
 
-        String FILE_PATH = "src/test/java/Part3/ExcelReading/Oct10_2024/TestData/PrgmLang.xlsx";
+        String FILE_PATH = "src/test/java/Part3/Parameterization/TestData/PrgmLang.xlsx";
 
         String rootPath = System.getProperty("user.dir");
         System.out.println(rootPath);
