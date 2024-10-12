@@ -52,7 +52,7 @@ public class Mtx43_ExcelReading {
         System.out.println("Total Columns : " + totalColumns);      //  3
 
 
-        for (int r = 0; r < totalRows ; r++) {
+        for (int r = 0; r <= totalRows ; r++) {
             XSSFRow currentRow = sheet.getRow(r);
             System.out.print(r + " -> ");
 
