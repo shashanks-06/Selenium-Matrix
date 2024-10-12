@@ -38,14 +38,11 @@ public class Mtx45_Dynamic {
 
         for (int r = 0; r < numOfRows; r++) {
             XSSFRow currentRow = sheet.createRow(r);
-//            System.out.print(r + " -> ");
 
             for (int c = 0; c < numOfCells ; c++) {
                 XSSFCell cell = currentRow.createCell(c);
                 cell.setCellValue(sc.next());                   //  next for all types of data types
-//                System.out.print(cell.toString() + " | ");
             }
-//            System.out.println();
         }
 
         workbook.write(file);
