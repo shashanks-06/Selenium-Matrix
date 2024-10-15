@@ -1,4 +1,4 @@
-package Part3.Parameterization.Oct10_2024_ExcelReading;
+package Part3.DataDrivenTesting.Oct10_2024_ExcelReading;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;

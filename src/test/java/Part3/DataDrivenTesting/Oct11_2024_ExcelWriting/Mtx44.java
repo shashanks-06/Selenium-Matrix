@@ -1,4 +1,4 @@
-package Part3.Parameterization.Oct11_2024_ExcelWriting;
+package Part3.DataDrivenTesting.Oct11_2024_ExcelWriting;
 
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
