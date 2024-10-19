@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Mtx54_EnableOrDisable.java">
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct19_2024.Mtx54_EnableOrDisable">
+
+<!--                Don't add any  '<methods>' in '<class>' to run every method present in the class-->
+<!--                <methods>-->
+<!--                    <exclude name="mobileLoginPersonalLoan"/>-->
+<!--                    <include name="mobileLoginPersonalLoan"/>-->
+
+<!--                    Not necessary to add <include/> to add test methods to run them through xml file-->
+<!--                    <include> used to run only the test method which is present in the name="" -->
+
+<!--                    To run only the test methods which contain name as "Web" -->
+<!--                        <include name="web.*"/>-->
+
+<!--                    <include name="webLoginPersonalLoan"/>-->
+<!--                    <include name="apiLoginPersonalLoan"/>-->
+<!--                    <include name="mobileLoginAutomobileLoan"/>-->
+<!--                    <include name="webLoginAutomobileLoan"/>-->
+<!--                    <include name="apiLoginAutomobileLoan"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
