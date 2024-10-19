@@ -18,7 +18,7 @@ public class Mtx52 {
 
     @Test
     public void TC2(){
-        Assert.fail();  // To intentionally fail
+//        Assert.fail();  // To intentionally fail
         Reporter.log("Running from TC2", true);
     }
 }
