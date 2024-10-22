@@ -6,12 +6,13 @@
     <test verbose="2" preserve-order="true" name="Mtx59_parameters.java">
         <classes>
             <class name="Part4_TestNG.Sel8.Oct22_2024_Annotations.Mtx59_parameters">
-                <methods>
-                    <include name="add"/>
-                    <include name="subtract"/>
-                    <include name="multiply"/>
-                    <include name="divide"/>
-                </methods>
+<!--                Not necessary to add, it will run all test Methods with @Test-->
+<!--                <methods>-->
+<!--                    <include name="add"/>-->
+<!--                    <include name="subtract"/>-->
+<!--                    <include name="multiply"/>-->
+<!--                    <include name="divide"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
