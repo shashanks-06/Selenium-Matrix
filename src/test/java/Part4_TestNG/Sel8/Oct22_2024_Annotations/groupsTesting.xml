@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Oct22_2024_Annotations/Mtx58_groups.java">
+        <groups>
+            <run>
+                <include name="Software Company"/>
+                <!-- Accenture |  Infosys -->
+
+<!--                <include name="Automobile Company"/> -->
+                <!-- Mahindra |  Tata -->
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct22_2024_Annotations.Mtx58_groups">
+
+            </class>
+        </classes>
+    </test>
+</suite>
