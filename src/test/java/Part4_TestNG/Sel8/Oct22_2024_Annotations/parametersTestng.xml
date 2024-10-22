@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <parameter name="i" value="5"/>
     <parameter name="j" value="5"/>
-    <test verbose="2" preserve-order="true" name="C:/Users/shash/IdeaProjects/Selenium-Matrix">
+    <test verbose="2" preserve-order="true" name="Mtx59_parameters.java">
         <classes>
             <class name="Part4_TestNG.Sel8.Oct22_2024_Annotations.Mtx59_parameters">
                 <methods>
