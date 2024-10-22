@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="i" value="5"/>
+    <parameter name="j" value="5"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/shash/IdeaProjects/Selenium-Matrix">
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct22_2024_Annotations.Mtx59_parameters">
+                <methods>
+                    <include name="add"/>
+                    <include name="subtract"/>
+                    <include name="multiply"/>
+                    <include name="divide"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
