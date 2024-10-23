@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Oct23_2024_Annotations/Mtx61_ParameterGoogleSearch_Facebook.java">
+<!--        The "name" in <test> should be different from the other <test> -->
+        <parameter name="searchKeyword" value="Facebook"/>
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
+<!--                <methods>-->
+<!--                    <include name="googleSearch"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="Oct23_2024_Annotations/Mtx61_ParameterGoogleSearch_Instagram.java">
+        <!--        The "name" in <test> should be different from the other <test> -->
+        <parameter name="searchKeyword" value="Instagram"/>
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
+<!--                <methods>-->
+<!--                    <include name="googleSearch"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
