@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Oct23_2024_Annotations/Mtx60_Parameter1.java">
+        <parameter name="Automobile Company" value="Mercedes"/>
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx60_Parameter1">
+                <methods>
+                    <include name="testCase1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="Oct23_2024_Annotations/Mtx60_Parameter2.java">
+        <parameter name="Software Company" value="Google"/>
+        <classes>
+            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx60_Parameter2">
+                <methods>
+                    <include name="testCase2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
