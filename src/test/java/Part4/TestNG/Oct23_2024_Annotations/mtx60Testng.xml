@@ -5,7 +5,7 @@
           name="Oct23_2024_Annotations/Mtx60_Parameter1.java">
         <parameter name="Automobile Company" value="Mercedes"/>
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx60_Parameter1">
+            <class name="Part4.TestNG.Oct23_2024_Annotations.Mtx60_Parameter1">
                 <methods>
                     <include name="testCase1"/>
                 </methods>
@@ -16,7 +16,7 @@
           name="Oct23_2024_Annotations/Mtx60_Parameter2.java">
         <parameter name="Software Company" value="Google"/>
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx60_Parameter2">
+            <class name="Part4.TestNG.Oct23_2024_Annotations.Mtx60_Parameter2">
                 <methods>
                     <include name="testCase2"/>
                 </methods>

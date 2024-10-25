@@ -6,7 +6,7 @@
 <!--        The "name" in <test> should be different from the other <test> -->
         <parameter name="searchKeyword" value="Facebook"/>
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
+            <class name="Part4.TestNG.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
 <!--                <methods>-->
 <!--                    <include name="googleSearch"/>-->
 <!--                </methods>-->
@@ -19,7 +19,7 @@
         <!--        The "name" in <test> should be different from the other <test> -->
         <parameter name="searchKeyword" value="Instagram"/>
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
+            <class name="Part4.TestNG.Oct23_2024_Annotations.Mtx61_ParameterGoogleSearch">
 <!--                <methods>-->
 <!--                    <include name="googleSearch"/>-->
 <!--                </methods>-->

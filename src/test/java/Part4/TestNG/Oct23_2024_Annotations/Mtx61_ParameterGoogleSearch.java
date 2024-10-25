@@ -1,4 +1,4 @@
-package Part4_TestNG.Sel8.Oct23_2024_Annotations;
+package Part4.TestNG.Oct23_2024_Annotations;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

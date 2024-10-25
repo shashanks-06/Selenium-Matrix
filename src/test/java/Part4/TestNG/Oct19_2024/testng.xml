@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="Mtx54_EnableOrDisable.java">
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct19_2024.Mtx54_EnableOrDisable">
+            <class name="Part4.TestNG.Oct19_2024.Mtx54_EnableOrDisable">
 
 <!--                Don't add any  '<methods>' in '<class>' to run every method present in the class-->
 <!--                <methods>-->

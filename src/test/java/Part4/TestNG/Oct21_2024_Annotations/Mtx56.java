@@ -1,4 +1,4 @@
-package Part4_TestNG.Sel8.Oct21_2024_Annotations;
+package Part4.TestNG.Oct21_2024_Annotations;
 
 import org.testng.annotations.Test;
 

@@ -5,7 +5,7 @@
     <parameter name="j" value="5"/>
     <test verbose="2" preserve-order="true" name="Mtx59_parameters.java">
         <classes>
-            <class name="Part4_TestNG.Sel8.Oct22_2024_Annotations.Mtx59_parameters">
+            <class name="Part4.TestNG.Oct22_2024_Annotations.Mtx59_parameters">
 <!--                Not necessary to add, it will run all test Methods with @Test-->
 <!--                <methods>-->
 <!--                    <include name="add"/>-->
