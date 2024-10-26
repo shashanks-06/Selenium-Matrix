@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="5">
+
+    <test verbose="2" preserve-order="true"
+          name="Test Using Classes">
+        <classes>
+
+            <class name="Part4.TestNG.Oct26_ParallelTesting.Mtx64_Chrome">
+            </class>
+            <class name="Part4.TestNG.Oct26_ParallelTesting.Mtx64_Edge">
+            </class>
+
+        </classes>
+    </test>
+
+</suite>
