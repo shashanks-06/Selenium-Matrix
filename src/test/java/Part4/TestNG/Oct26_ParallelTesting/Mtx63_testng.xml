@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--It is important for PARALLEL TESTING <parallel="methods" thread-count="2">-->
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+
+    <test verbose="2" preserve-order="true"
+          name="Part4/TestNG/Oct26_ParallelTesting/Mtx63.java">
+
+        <classes>
+            <class name="Part4.TestNG.Oct26_ParallelTesting.Mtx63">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
