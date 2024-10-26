@@ -10,7 +10,7 @@ public class Mtx63 {
         Thread.sleep(2000);
     }
 
-//  Both methods will run at the same time -> parallel -> <parallel="methods" thread-count="2"> in testng.xml
+//  Both methods will run at the same time -> parallel -> <parallel="methods" thread-count="2"> in Mtx64_testng.xml
 
     @Test
     public void method2() throws InterruptedException {
