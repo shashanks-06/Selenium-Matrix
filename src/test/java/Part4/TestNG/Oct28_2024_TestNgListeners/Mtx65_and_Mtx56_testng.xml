@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Part4.TestNG.Oct28_2024_TestNgListeners.Mtx65_Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/shash/IdeaProjects/Selenium-Matrix/src/test/java/Part4/TestNG/Oct28_2024_TestNgListeners/Mtx65_Login.java">
+        <classes>
+            <class name="Part4.TestNG.Oct28_2024_TestNgListeners.Mtx65_Login"/>
+
+            <class name="Part4.TestNG.Oct21_2024_Annotations.Mtx56"/>
+        </classes>
+    </test>
+</suite>
