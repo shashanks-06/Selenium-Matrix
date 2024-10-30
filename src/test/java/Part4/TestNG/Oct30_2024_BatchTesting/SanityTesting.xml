@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Sanity Testing">
+        <classes>
+
+            <class name="Part4.TestNG.Oct30_2024_BatchTesting.Mtx66_LoginTest">
+                <methods>
+                    <include name="loginByMobileNum"/>
+                    <include name="loginByEmail"/>
+                </methods>
+            </class>
+
+            <class name="Part4.TestNG.Oct30_2024_BatchTesting.Mtx66_HomeScreenTest">
+                <methods>
+                    <include name="launchApplication"/>
+                    <include name="verifyTitle"/>
+                    <include name="verifyLogo"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

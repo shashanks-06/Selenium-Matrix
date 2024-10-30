@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Functional Testing">
+        <classes>
+
+            <class name="Part4.TestNG.Oct30_2024_BatchTesting.Mtx66_ProductPageTest">
+                <methods>
+                    <include name="addProductToWishlist"/>
+                    <include name="addProductToCart"/>
+                    <include name="selectQuantity"/>
+                </methods>
+            </class>
+
+            <class name="Part4.TestNG.Oct30_2024_BatchTesting.Mtx66_PaymentTest">
+                <methods>
+                    <include name="cashOnDelivery"/>
+                    <include name="netBanking"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>
