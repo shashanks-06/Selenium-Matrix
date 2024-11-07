@@ -1,4 +1,4 @@
-package Part4.TestNG.Nov06_2024;
+package Part4.TestNG_November.Nov06_2024;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -4,9 +4,9 @@
     <test verbose="2" preserve-order="true"
           name="/Part4/TestNG/Nov05_2024_Annotations/Mtx69.java">
         <classes>
-            <class name="Part4.TestNG.Nov05_2024_Annotations.Mtx69_1">
+            <class name="Part4.TestNG_November.Nov05_2024_Annotations.Mtx69_1">
             </class>
-            <class name="Part4.TestNG.Nov05_2024_Annotations.Mtx69_2">
+            <class name="Part4.TestNG_November.Nov05_2024_Annotations.Mtx69_2">
             </class>
         </classes>
     </test>
