@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Mtx71_P2 {
+public class Mtx71_OnlySearch {
 
     WebDriver driver;
     String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";

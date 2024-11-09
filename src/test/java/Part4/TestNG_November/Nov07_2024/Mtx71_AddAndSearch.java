@@ -1,7 +1,6 @@
 package Part4.TestNG_November.Nov07_2024;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -11,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Mtx71 {
+public class Mtx71_AddAndSearch {
 
     WebDriver driver;
     String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
