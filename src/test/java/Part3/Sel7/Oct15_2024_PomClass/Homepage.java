@@ -11,7 +11,7 @@ public class Homepage {
     @FindBy(xpath = "//button[@id='add-to-cart']") private WebElement cartButton;
 
 //    Step 2 -> Initialization
-//    "Initialize all WebElements in this instance of the LoginPage class using the provided WebDriver."
+//    "Initialize all WebElements in this instance of the HomePage class using the provided WebDriver."
     public Homepage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
