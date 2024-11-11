@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/shash/IdeaProjects/Selenium-Matrix/src/test/java/Part4/TestNG_November/Nov11_2024_DataProvider/Mtx73.java">
+        <classes>
+            <class name="Part4.TestNG_November.Nov11_2024.Mtx73_DataProvider">
+                <methods>
+                    <include name="searchKeyword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
