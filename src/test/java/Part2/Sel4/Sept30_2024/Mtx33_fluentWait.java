@@ -3,7 +3,6 @@ package Part2.Sel4.Sept30_2024;
 import com.google.common.base.Stopwatch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -12,7 +11,7 @@ import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class mtx33_fluentWait {
+public class Mtx33_fluentWait {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
