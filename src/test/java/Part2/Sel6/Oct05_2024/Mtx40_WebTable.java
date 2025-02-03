@@ -28,8 +28,11 @@ public class Mtx40_WebTable {
         for (int i = 2; i <= rowList.size(); i++) {
             for (int j = 1; j <= columnList.size(); j++) {
                String cell = driver.findElement(By.xpath("//table/tbody/tr["+i+"]/td["+j+"]")).getText();
-                System.out.println(cell);
+                System.out.print(cell + " | ");
             }
+            System.out.println();
         }
+
+        driver.quit();
     }
 }
