@@ -54,9 +54,9 @@ public class Mtx71_AddAndSearch {
         driver.findElement(By.xpath("//a[text()='Add Employee']")).click();
         Thread.sleep(1000);
 
-        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("John");
-        driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys("James");
-        driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Doe");
+        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Jack");
+        driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys("Sparrow");
+        driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Black Pearl");
 
 //      change the id always for successful testing
         driver.findElement(By.xpath(
@@ -64,31 +64,35 @@ public class Mtx71_AddAndSearch {
                 .sendKeys("12345");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
-        String finalName = driver.findElement(By.xpath("//h6[normalize-space()='John Doe']")).getText();
-
-        Assert.assertEquals(finalName, "John Doe");
+        String finalName = driver.findElement(By.xpath("//h6[normalize-space()='Jack Black Pearl']")).getText();
+        System.out.println(finalName);
+        Assert.assertEquals(finalName, "Jack Black Pearl");
 
         System.out.println("Employee Added Successfully");
     }
 
     @Test(dependsOnMethods = "addEmployee")
     public void searchEmployee() throws InterruptedException {
+
+        String empName = "Jack Sparrow";
+
         driver.findElement(By.xpath("//a[normalize-space()='Employee List']")).click();
         Thread.sleep(2000);
 
         driver.findElement(By.xpath(
                 "(//input[@placeholder=\"Type for hints...\"])[1]"))
-                .sendKeys("John");
+                .sendKeys("Jack");
         driver.findElement(By.cssSelector("button[type='submit']")).click();
 
-//        String searchedEmployeeName = driver.findElement(By.xpath(
+        String searchedEmployeeName = driver.findElement(By.xpath(
 //                "//body/div[@id='app']/div[@class='oxd-layout orangehrm-upgrade-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@role='table']/div[@role='rowgroup']/div[2]/div[1]/div[1]/div[1]"
-//        )).getText();
-//
-//        System.out.println(searchedEmployeeName);
-////        Assert.assertEquals( "John James", searchedEmployeeName);
+                    "(//div[normalize-space()='Jack Sparrow'])[2]"
+        )).getText();
+
+        System.out.println(searchedEmployeeName);
+        Assert.assertEquals("Jack Sparrow", searchedEmployeeName);
 
         System.out.println("Successfully Searched the Employee");
 
