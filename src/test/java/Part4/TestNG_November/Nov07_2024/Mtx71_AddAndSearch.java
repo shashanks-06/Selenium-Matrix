@@ -15,6 +15,11 @@ public class Mtx71_AddAndSearch {
     WebDriver driver;
     String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
+    String firstName = "Jack";
+    String middleName = "Sparrow";
+    String lastName = "Black Pearl";
+    String id = "12345";
+
     @BeforeTest
     public void setUp(){
         driver = new ChromeDriver();
@@ -54,21 +59,21 @@ public class Mtx71_AddAndSearch {
         driver.findElement(By.xpath("//a[text()='Add Employee']")).click();
         Thread.sleep(1000);
 
-        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Jack");
-        driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys("Sparrow");
-        driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Black Pearl");
+        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys(firstName);
+        driver.findElement(By.xpath("//input[@placeholder='Middle Name']")).sendKeys(middleName);
+        driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys(lastName);
 
 //      change the id always for successful testing
         driver.findElement(By.xpath(
                 "//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']"))
-                .sendKeys("12345");
+                .sendKeys(id);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         Thread.sleep(4000);
 
-        String finalName = driver.findElement(By.xpath("//h6[normalize-space()='Jack Black Pearl']")).getText();
-        System.out.println(finalName);
-        Assert.assertEquals(finalName, "Jack Black Pearl");
+        String employeeName = firstName + " " + lastName;  //   Jack Black Pearl
+        String finalName = driver.findElement(By.xpath("//h6[normalize-space()='"+ employeeName + "']")).getText();
+        Assert.assertEquals(finalName, employeeName);
 
         System.out.println("Employee Added Successfully");
     }
@@ -76,23 +81,23 @@ public class Mtx71_AddAndSearch {
     @Test(dependsOnMethods = "addEmployee")
     public void searchEmployee() throws InterruptedException {
 
-        String empName = "Jack Sparrow";
+        String employeeName = firstName + " " + middleName;     // Jack Sparrow
 
         driver.findElement(By.xpath("//a[normalize-space()='Employee List']")).click();
         Thread.sleep(2000);
 
         driver.findElement(By.xpath(
                 "(//input[@placeholder=\"Type for hints...\"])[1]"))
-                .sendKeys("Jack");
+                .sendKeys(firstName);
         driver.findElement(By.cssSelector("button[type='submit']")).click();
 
         String searchedEmployeeName = driver.findElement(By.xpath(
 //                "//body/div[@id='app']/div[@class='oxd-layout orangehrm-upgrade-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@role='table']/div[@role='rowgroup']/div[2]/div[1]/div[1]/div[1]"
-                    "(//div[normalize-space()='Jack Sparrow'])[2]"
+                    "(//div[normalize-space()='"+ employeeName +"'])[2]"
         )).getText();
 
         System.out.println(searchedEmployeeName);
-        Assert.assertEquals("Jack Sparrow", searchedEmployeeName);
+        Assert.assertEquals(employeeName, searchedEmployeeName);
 
         System.out.println("Successfully Searched the Employee");
 
