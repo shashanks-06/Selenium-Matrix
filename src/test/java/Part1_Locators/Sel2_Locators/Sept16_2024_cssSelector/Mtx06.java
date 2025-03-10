@@ -26,7 +26,7 @@ public class Mtx06 {
         Thread.sleep(2000);
 
 //        LOGOUT BUTTON
-driver.findElement(By.cssSelector("a[href=\"./index.html\"]")).click();
+        driver.findElement(By.cssSelector("a[href=\"./index.html\"]")).click();
         Thread.sleep(1000);
 
         driver.close();
