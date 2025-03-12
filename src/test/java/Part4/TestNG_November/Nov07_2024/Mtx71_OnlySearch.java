@@ -2,7 +2,10 @@ package Part4.TestNG_November.Nov07_2024;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -66,6 +69,24 @@ public class Mtx71_OnlySearch {
 
         driver.findElement(By.cssSelector("button[type='submit']")).click();
 
+
+
+        String expectedName = "Amelia Brown";
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement searchedName = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//div[@class=\"oxd-table-cell oxd-padding-cell\"][3]//div")));
+
+        String searchedFName = searchedName.getText();
+
+        String searchedLName = driver.findElement(By.xpath(
+                "//div[@class=\"oxd-table-cell oxd-padding-cell\"][4]//div")).getText();
+
+        String actualName = searchedFName + " " + searchedLName;
+
+        Assert.assertEquals(actualName, expectedName);
+
+        System.out.println("Searched name : " + actualName);
         System.out.println("Successfully Searched the Employee");
 
     }
